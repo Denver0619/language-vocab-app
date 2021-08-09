@@ -10,6 +10,11 @@ class GrammarTab extends StatefulWidget {
 class _GrammarTabState extends State<GrammarTab> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Grammar'),
+      ),
+      body: Column(),
+    );
   }
 }

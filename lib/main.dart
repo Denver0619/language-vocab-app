@@ -9,12 +9,20 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      themeMode: ThemeMode.system,
-      theme: AppThemes.lightTheme,
-      darkTheme: AppThemes.darkTheme,
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+    return ChangeNotifierProvider(
+      create: (context) {
+        return ThemeProvider();
+      },
+      builder: (context, _) {
+        final themeProvider = Provider.of<ThemeProvider>(context);
+        return MaterialApp(
+          title: 'Flutter Demo',
+          themeMode: themeProvider.themeMode,
+          theme: AppThemes.lightTheme,
+          darkTheme: AppThemes.darkTheme,
+          home: MyHomePage(title: 'Flutter Demo Home Page'),
+        );
+      },
     );
   }
 }
@@ -49,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ],
         onTap: (index) {
           setState(() {
-            index = _currentTabIndex;
+            _currentTabIndex = index;
           });
         },
       ),

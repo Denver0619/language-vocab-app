@@ -10,6 +10,19 @@ class DictionaryTab extends StatefulWidget {
 class _DictionaryTabState extends State<DictionaryTab> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Dictionary'),
+      ),
+      body: Column(
+        children: [
+          Expanded(
+            child: ListView(
+              children: [],
+            ),
+          )
+        ],
+      ),
+    );
   }
 }

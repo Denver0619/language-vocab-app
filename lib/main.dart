@@ -29,16 +29,30 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  int _currentTabIndex = 1;
 
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
+  final tabList = [DictionaryTab(), GrammarTab(), SettingsTab()];
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: tabList[_currentTabIndex],
+      bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
+        currentIndex: _currentTabIndex,
+        items: [
+          BottomNavigationBarItem(icon: Icon(Icons.book), label: 'Dictionary'),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.text_fields), label: 'Grammar'),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.settings), label: 'Settings'),
+        ],
+        onTap: (index) {
+          setState(() {
+            index = _currentTabIndex;
+          });
+        },
+      ),
+    );
   }
 }

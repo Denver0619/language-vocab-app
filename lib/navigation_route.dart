@@ -10,6 +10,14 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) {
           return MyHomePage();
         });
+      case '/noun':
+        if (args is String) {
+          return MaterialPageRoute(builder: (_) {
+            return NounLessons(title: args);
+          });
+        } else {
+          return _errorWrongDataType();
+        }
       default:
         return _errorRoute();
     }
@@ -23,7 +31,22 @@ class RouteGenerator {
             title: Text('ERROR'),
           ),
           body: Center(
-            child: Text('Error_Unknown_Route'),
+            child: Text('Error: Unknown Route'),
+          ),
+        );
+      },
+    );
+  }
+
+  static Route<dynamic> _errorWrongDataType() {
+    return MaterialPageRoute(
+      builder: (_) {
+        return Scaffold(
+          appBar: AppBar(
+            title: Text('ERROR'),
+          ),
+          body: Center(
+            child: Text('Error: Argument is of wrong data type'),
           ),
         );
       },

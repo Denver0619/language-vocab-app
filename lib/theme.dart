@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 
 class AppThemes {
   static final darkTheme = ThemeData(
-    scaffoldBackgroundColor: Colors.grey[850],
+    scaffoldBackgroundColor: Colors.grey[900],
     colorScheme: ColorScheme.dark(),
   );
   static final lightTheme = ThemeData(

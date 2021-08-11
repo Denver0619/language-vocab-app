@@ -1,3 +1,4 @@
+export 'main.dart';
 export 'theme.dart';
 export 'tabs/dictionary.dart';
 export 'tabs/grammar.dart';

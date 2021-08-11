@@ -20,7 +20,8 @@ class MyApp extends StatelessWidget {
           themeMode: themeProvider.themeMode,
           theme: AppThemes.lightTheme,
           darkTheme: AppThemes.darkTheme,
-          home: MyHomePage(title: 'Flutter Demo Home Page'),
+          initialRoute: '/',
+          onGenerateRoute: RouteGenerator.generateRoute,
         );
       },
     );
@@ -28,9 +29,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key, required this.title}) : super(key: key);
-
-  final String title;
+  MyHomePage({Key? key}) : super(key: key);
 
   @override
   _MyHomePageState createState() => _MyHomePageState();

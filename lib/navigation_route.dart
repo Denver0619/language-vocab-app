@@ -24,18 +24,16 @@ class RouteGenerator {
   }
 
   static Route<dynamic> _errorRoute() {
-    return MaterialPageRoute(
-      builder: (_) {
-        return Scaffold(
-          appBar: AppBar(
-            title: Text('ERROR'),
-          ),
-          body: Center(
-            child: Text('Error: Unknown Route'),
-          ),
-        );
-      },
-    );
+    return MaterialPageRoute(builder: (_) {
+      return Scaffold(
+        appBar: AppBar(
+          title: Text('ERROR'),
+        ),
+        body: Center(
+          child: Text('Error: Unknown Route'),
+        ),
+      );
+    });
   }
 
   static Route<dynamic> _errorWrongDataType() {

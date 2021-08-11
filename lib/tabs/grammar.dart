@@ -2,11 +2,17 @@ import 'package:flutter/material.dart';
 
 class GrammarContents {
   String title;
+<<<<<<< HEAD
   String subtitle;
   String path;
 
   GrammarContents(
       {required this.title, required this.subtitle, required this.path});
+=======
+  String path;
+
+  GrammarContents({required this.title, required this.path});
+>>>>>>> 4a52318526db1bc8515332916b272b058c8d0e60
 }
 
 class GrammarTab extends StatefulWidget {
@@ -18,6 +24,7 @@ class GrammarTab extends StatefulWidget {
 
 class _GrammarTabState extends State<GrammarTab> {
   final List<GrammarContents> grammarContents = [
+<<<<<<< HEAD
     GrammarContents(title: 'Noun', subtitle: 'Sustantivo', path: '/noun'),
     GrammarContents(title: 'Article', subtitle: 'Artículo', path: '/article'),
     GrammarContents(
@@ -29,6 +36,16 @@ class _GrammarTabState extends State<GrammarTab> {
         title: 'Preposition', subtitle: 'Preposición', path: '/preposition'),
     GrammarContents(
         title: 'Conjunction', subtitle: 'Conjunción', path: '/conjuction')
+=======
+    GrammarContents(title: 'Noun Sustantivo', path: ''),
+    GrammarContents(title: 'Article Artículo', path: ''),
+    GrammarContents(title: 'Adjective Adjetivo', path: ''),
+    GrammarContents(title: 'Pronoun Pronombre', path: ''),
+    GrammarContents(title: 'Verb Verbo', path: ''),
+    GrammarContents(title: 'Adverb Adverbio', path: ''),
+    GrammarContents(title: 'Preposition Proposición', path: ''),
+    GrammarContents(title: 'Conjunction Conjunción', path: '')
+>>>>>>> 4a52318526db1bc8515332916b272b058c8d0e60
   ];
   @override
   Widget build(BuildContext context) {
@@ -40,14 +57,20 @@ class _GrammarTabState extends State<GrammarTab> {
         children: [
           Expanded(
             child: GridView.builder(
+<<<<<<< HEAD
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
                   mainAxisSpacing: 8.0,
                   crossAxisSpacing: 8.0),
+=======
+              gridDelegate:
+                  SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+>>>>>>> 4a52318526db1bc8515332916b272b058c8d0e60
               itemBuilder: (BuildContext context, index) {
                 return InkWell(
                   child: Card(
                     child: Container(
+<<<<<<< HEAD
                       child: Center(
                         child: Column(
                           children: [
@@ -67,6 +90,14 @@ class _GrammarTabState extends State<GrammarTab> {
                         arguments: '${grammarContents[index].title}' +
                             '-' +
                             '${grammarContents[index].subtitle}');
+=======
+                      child: Text('${grammarContents[index].title}'),
+                    ),
+                  ),
+                  onTap: () {
+                    Navigator.of(context)
+                        .pushNamed('${grammarContents[index].path}');
+>>>>>>> 4a52318526db1bc8515332916b272b058c8d0e60
                   },
                 );
               },

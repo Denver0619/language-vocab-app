@@ -35,8 +35,9 @@ class _NounLessonsState extends State<NounLessons> {
                         ' ' +
                         '${nounContents[index].title}'),
                     onTap: () {
-                      Navigator.of(context)
-                          .pushNamed('${nounContents[index].path}');
+                      Navigator.of(context).pushNamed(
+                          '${nounContents[index].path}',
+                          arguments: '${nounContents[index].title}');
                     });
               },
               separatorBuilder: (BuildContext context, index) {

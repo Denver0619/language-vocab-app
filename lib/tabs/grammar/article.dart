@@ -34,8 +34,9 @@ class _ArticleLessonsState extends State<ArticleLessons> {
                         ' ' +
                         '${articleContents[index].title}'),
                     onTap: () {
-                      Navigator.of(context)
-                          .pushNamed('${articleContents[index].path}');
+                      Navigator.of(context).pushNamed(
+                          '${articleContents[index].path}',
+                          arguments: '${articleContents[index].title}');
                     });
               },
               separatorBuilder: (BuildContext context, index) {

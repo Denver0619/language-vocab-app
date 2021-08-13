@@ -18,6 +18,62 @@ class RouteGenerator {
         } else {
           return _errorWrongDataType();
         }
+      case '/article':
+        if (args is String) {
+          return MaterialPageRoute(builder: (_) {
+            return ArticleLessons(title: args);
+          });
+        } else {
+          return _errorWrongDataType();
+        }
+      case '/adjective':
+        if (args is String) {
+          return MaterialPageRoute(builder: (_) {
+            return AdjectiveLessons(title: args);
+          });
+        } else {
+          return _errorWrongDataType();
+        }
+      case '/pronoun':
+        if (args is String) {
+          return MaterialPageRoute(builder: (_) {
+            return PronounLessons(title: args);
+          });
+        } else {
+          return _errorWrongDataType();
+        }
+      // case '/verb':
+      //   if (args is String) {
+      //     return MaterialPageRoute(builder: (_) {
+      //       return NounLessons(title: args);
+      //     });
+      //   } else {
+      //     return _errorWrongDataType();
+      //   }
+      // case '/adverb':
+      //   if (args is String) {
+      //     return MaterialPageRoute(builder: (_) {
+      //       return NounLessons(title: args);
+      //     });
+      //   } else {
+      //     return _errorWrongDataType();
+      //   }
+      // case '/preposition':
+      //   if (args is String) {
+      //     return MaterialPageRoute(builder: (_) {
+      //       return NounLessons(title: args);
+      //     });
+      //   } else {
+      //     return _errorWrongDataType();
+      //   }
+      // case '/conjunction':
+      //   if (args is String) {
+      //     return MaterialPageRoute(builder: (_) {
+      //       return NounLessons(title: args);
+      //     });
+      //   } else {
+      //     return _errorWrongDataType();
+      //   }
       default:
         return _errorRoute();
     }

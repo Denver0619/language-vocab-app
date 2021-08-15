@@ -11,7 +11,7 @@ class NounLessons extends StatefulWidget {
 
 class _NounLessonsState extends State<NounLessons> {
   List<LessonTile> nounContents = [
-    LessonTile(lessonNum: '1.1', title: 'Noun Gender Part 1', path: ''),
+    LessonTile(lessonNum: '1.1', title: 'Noun Gender Part 1', path: '/noun1'),
     LessonTile(lessonNum: '1.2', title: 'Noun Gender Part 2', path: ''),
     LessonTile(lessonNum: '1.3', title: 'Ordinal Numbers', path: ''),
     LessonTile(lessonNum: '1.4', title: 'Cardinal Numbers', path: ''),

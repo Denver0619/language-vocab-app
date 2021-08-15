@@ -7,6 +7,7 @@ export 'navigation_route.dart';
 
 //noun
 export 'tabs/grammar/noun.dart';
+export 'tabs/grammar/noun/noun1.dart';
 
 //article
 export 'tabs/grammar/article.dart';

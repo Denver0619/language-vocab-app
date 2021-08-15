@@ -1,4 +1,4 @@
-import 'all_loacal_lib_import.dart';
+import 'all_local_lib_import.dart';
 import 'package:flutter/material.dart';
 import 'package:spanish_to_english_dict/theme.dart';
 

@@ -1,4 +1,4 @@
-import 'all_loacal_lib_import.dart';
+import 'all_local_lib_import.dart';
 import 'package:flutter/material.dart';
 
 class RouteGenerator {
@@ -10,6 +10,7 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) {
           return MyHomePage();
         });
+      //noun lessons
       case '/noun':
         if (args is String) {
           return MaterialPageRoute(builder: (_) {
@@ -18,6 +19,15 @@ class RouteGenerator {
         } else {
           return _errorWrongDataType();
         }
+      case '/noun1':
+        if (args is String) {
+          return MaterialPageRoute(builder: (_) {
+            return Noun1(title: args);
+          });
+        } else {
+          return _errorWrongDataType();
+        }
+      //article lessons
       case '/article':
         if (args is String) {
           return MaterialPageRoute(builder: (_) {
@@ -26,6 +36,7 @@ class RouteGenerator {
         } else {
           return _errorWrongDataType();
         }
+      //adjective lessons
       case '/adjective':
         if (args is String) {
           return MaterialPageRoute(builder: (_) {
@@ -34,6 +45,7 @@ class RouteGenerator {
         } else {
           return _errorWrongDataType();
         }
+      //pronoun lessons
       case '/pronoun':
         if (args is String) {
           return MaterialPageRoute(builder: (_) {

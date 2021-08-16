@@ -21,7 +21,6 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  pluto_grid: ^2.4.1
 
   xml: ^5.1.2
 

@@ -5,13 +5,13 @@ Spanish nouns are gendered, either masculine or femenine, it is better to learn 
 [Example]
 Persona: Juan, la niña, el doctor
 Lugar: el jardín, la universidad, España 
-Cosa: el libro, el carro/coche, eltomate
+Cosa: el libro, el carro/coche, el tomate
 Idea: la libertad, la tristeza, la lealtad
 
 
 Most masculine nouns ends in -o.
 
-[Table]
+[Table]1
 Nouns that ends in -o		Translation
 el niño	or el chico		boy
 el libro			book
@@ -26,8 +26,8 @@ Some masculine nouns does not end woth -o, instead they are most likely to end w
 •Consonant appart from -d and -z.
 •Nouns that end in -ma, most of this words is of Greek(-pa, -ta) origin and have an English cognates.
 •Nouns that end in -e.
-[Table]
-Accented Vowels			Translation
+[Table]2
+Accented vowels			Translation
 el papá				dad
 el café				coffee
 el ají				chili pepper
@@ -35,7 +35,7 @@ el bambú			bamboo
 el rubí				ruby
 el tabú				taboo
 
-[Table]
+[Table]3
 Consonant appart from -d and -z	Translation
 el jardín			garden
 el árbol			tree
@@ -43,8 +43,8 @@ el doctor			doctor
 el señor			sir/mister
 el cojín			cushion
 
-[Table]
-Nouns that end in -ma, -pa, -ta	Translation
+[Table]4
+Nouns that end in -ma	Translation
 el problema			problem
 el drama			drama
 el programa			program
@@ -52,7 +52,7 @@ el idioma			language
 el tema				subject
 el poema			poem
 
-[Table]
+[Table]5
 Nouns that end in -e		Translation
 el tomate			tomato
 el estante			shelf
@@ -61,42 +61,43 @@ el hombre			man
 el nombre			name
 
 Some masculine nouns can have other endings such as:
+
 •Nouns that ends in -aje (usually the equivalent of -age in English).
 •Nouns that ends in -ambre.
 •Nouns that ends in -or.
 
-[Table]
+[Table]6
 Nouns that ends in -aje		Translation
 el coraje			courage
 el mensaje			message
 el espionaje			espionage
 
-[Table]
+[Table]7
 Nouns that ends in -ambre
 el alambre			wire
 el hambre			hunger
 el calambre			cramp
 
-[Table]
+[Table]8
 Nouns that ends in -or		Translation
 el calor 			heat
 el dolor			pain
 el interior			interior
 
-Infinitives that are used as nouns are usually masculine and singular
+Infinitives that are used as nouns are usually masculine and singular.
 
-[Table]
+[Table]9
 Infinitive noun			Translation
-el beber			drinking (to drink)
-el caminar			walking (to walk)
-el vivir			living (to live)
-el fumar			smoking (to smoke)
-el cantar			singing (to sing)
-el viajar			traveling (to travel)
+el beber (to drink)		drinking
+el caminar (to walk)		walking
+el vivir (to live)		living
+el fumar (to smoke)		smoking
+el cantar (to sing)		singing
+el viajar (to travel)		traveling
 
 Months and Days of the week are masculine.
 
-[Table]
+[Table]10
 Days of the week		Translation
 el lunes			Monday
 el martes			Tuesday
@@ -106,7 +107,7 @@ el viernes			Friday
 el sábado			Saturday
 el domingo			Sunday
 
-[Table]
+[Table]11
 Months of the year		Translation
 el enero			January
 el febrero			February
@@ -121,9 +122,9 @@ el octubre			October
 el noviembre			November
 el diciembre			December
 
-Numbers (El número) is masculine.
+Numbers is masculine "el número" is masculine.
 
-[Table]
+[Table]12
 Numbers				Translation
 el doce				twelve
 el quince			fifteen
@@ -134,7 +135,7 @@ el setecientos			seven hundred
 
 Compund nouns where verb is followed by a noun are masculine.
 
-[Table]
+[Table]13
 Compund nouns			Translation
 el rascacielos			skyscrapper
 el dragaminas			minesweeper
@@ -143,7 +144,7 @@ el tragamondedas		slot machine/vending machine
 
 Chemical element names are masculine.
 
-[Table]
+[Table]14
 Chemical element		Translation
 el oxígeno			oxygen
 el oro				gold
@@ -154,11 +155,12 @@ el neón				neon
 
 
 Geographical names such as:
+
 •Names of rivers because "el río" is masculine.
 •Names of lakes because "el lago" is masculine.
 •Names of oceans because "el océano" is masculine.
 
-[Table]
+[Table]15
 Bodies of water			Translation
 el Pasifico			the Pacific
 el Atlántico			the Atlantic
@@ -169,7 +171,7 @@ el Amazonas			the Amazon
 
 •Names of mountains because "el monte" is masculine.
  
-[Table]
+[Table]16
 Mountains			Translation
 los Apalache			the Appalachian
 los Andes			the Andes
@@ -177,7 +179,7 @@ el Everest			the Everest
 
 Borrowed foreign words are usually masculine unless there is a reason for it to be feminine.
 
-[Table]
+[Table]17
 Borrowed Words			Translation
 el bistec			beefsteak
 el champú			shampoo
@@ -186,24 +188,24 @@ el show				show
 
 
 Here are some of the exceptions:
-
+18
 Exception -or			Translation
 la flor				flower
 la coliflor			cauliflower
 la sor				sister(religious)
 la labor			work
-
+19
 Exception chemical elements	Translation
 la plata			silver
-
+20
 Exception mountains		Translation
 las Rocosas,			rocky
 or las Montañas Rocosas		rocky mountain
-
+21
 Exception borrowed words	Translation
 la pizza			pizza
 la web				web or world wide web
-
+22
 Exception -o			Translation
 la foto (fotografía)		photo (photography)
 la mano				hand
@@ -212,13 +214,13 @@ la libido			libido
 la radio			radio
 la polio			polio
 la virago			virago
-
+23
 Exception appart from -d and -z	Translation
 la miel				honey
 la sal				salt
 la hiel				gall
 la piel				skin
-
+24
 Exceptions -e			Translation
 la llave			wrench
 la calle			street

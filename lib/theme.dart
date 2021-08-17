@@ -38,3 +38,29 @@ class ChangeThemeButton extends StatelessWidget {
     );
   }
 }
+
+//Cusom reusable widgets
+class CustomDataTable extends StatefulWidget {
+  const CustomDataTable({Key? key, required this.columns, required this.rows})
+      : super(key: key);
+  final List<DataColumn> columns;
+  final List<DataRow> rows;
+
+  @override
+  CustomDataTableState createState() => CustomDataTableState();
+}
+
+class CustomDataTableState extends State<CustomDataTable> {
+  @override
+  Widget build(BuildContext context) {
+    return DataTableTheme(
+        child: DataTable(
+          columns: widget.columns,
+          rows: widget.rows,
+        ),
+        data: DataTableThemeData(
+          dataRowHeight: 20,
+          headingRowHeight: 25,
+        ));
+  }
+}

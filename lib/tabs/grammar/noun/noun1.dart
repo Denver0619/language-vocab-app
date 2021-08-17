@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import '../../../theme.dart';
 
 class Noun1 extends StatefulWidget {
   const Noun1({Key? key, required this.title}) : super(key: key);
@@ -439,7 +440,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns1,
               rows: rows1,
             ),
@@ -455,7 +456,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns2,
               rows: rows2,
             ),
@@ -502,7 +503,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns3,
               rows: rows3,
             ),
@@ -510,7 +511,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns4,
               rows: rows4,
             ),
@@ -518,7 +519,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns5,
               rows: rows5,
             ),
@@ -526,7 +527,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns6,
               rows: rows6,
             ),
@@ -566,7 +567,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns7,
               rows: rows7,
             ),
@@ -574,7 +575,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns8,
               rows: rows8,
             ),
@@ -582,7 +583,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns9,
               rows: rows9,
             ),
@@ -599,7 +600,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns10,
               rows: rows10,
             ),
@@ -615,7 +616,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns11,
               rows: rows11,
             ),
@@ -623,7 +624,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns12,
               rows: rows12,
             ),
@@ -639,7 +640,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns13,
               rows: rows13,
             ),
@@ -656,7 +657,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns14,
               rows: rows14,
             ),
@@ -672,7 +673,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns15,
               rows: rows15,
             ),
@@ -710,7 +711,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns16,
               rows: rows16,
             ),
@@ -727,7 +728,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns17,
               rows: rows17,
             ),
@@ -744,7 +745,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns18,
               rows: rows18,
             ),
@@ -760,7 +761,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns19,
               rows: rows19,
             ),
@@ -768,7 +769,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns20,
               rows: rows20,
             ),
@@ -776,7 +777,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns21,
               rows: rows21,
             ),
@@ -784,7 +785,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns22,
               rows: rows22,
             ),
@@ -792,7 +793,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns23,
               rows: rows23,
             ),
@@ -800,7 +801,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns24,
               rows: rows24,
             ),
@@ -808,7 +809,7 @@ class _N1C1State extends State<N1C1> {
           Text(''),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
-            child: DataTable(
+            child: CustomDataTable(
               columns: columns25,
               rows: rows25,
             ),

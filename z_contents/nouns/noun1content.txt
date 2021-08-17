@@ -44,7 +44,7 @@ el señor			sir/mister
 el cojín			cushion
 
 [Table]4
-Nouns that end in -ma	Translation
+Nouns that end in -ma		Translation
 el problema			problem
 el drama			drama
 el programa			program

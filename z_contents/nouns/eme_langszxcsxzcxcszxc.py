@@ -1,6 +1,6 @@
-x=1
+x=0
 '''
-while x < 25:
+while x != 16:
     x += 1
     print('List<DataColumn> columns'+ str(x)+' = [')
     print("  DataColumn(label: Text('')),")
@@ -12,12 +12,12 @@ while x < 25:
     print('')
 
 '''
-while x < 25:
+while x != 16:
     x += 1
     print("          Text(''),")
     print('          SingleChildScrollView(')
     print('            scrollDirection: Axis.horizontal,')
-    print('            child: DataTable(')
+    print('            child: CustomDataTable(')
     print('              columns: columns'+str(x)+',')
     print('              rows: rows'+str(x)+',')
     print('           ),')
@@ -30,4 +30,5 @@ while x < 25:
               child: Text(''),
             ),
           ),''')
+
 

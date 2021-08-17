@@ -12,12 +12,12 @@ class NounLessons extends StatefulWidget {
 class _NounLessonsState extends State<NounLessons> {
   List<LessonTile> nounContents = [
     LessonTile(lessonNum: '1.1', title: 'Noun Gender Part 1', path: '/noun1'),
-    LessonTile(lessonNum: '1.2', title: 'Noun Gender Part 2', path: ''),
-    LessonTile(lessonNum: '1.3', title: 'Ordinal Numbers', path: ''),
-    LessonTile(lessonNum: '1.4', title: 'Cardinal Numbers', path: ''),
+    LessonTile(lessonNum: '1.2', title: 'Noun Gender Part 2', path: '/noun2'),
+    LessonTile(lessonNum: '1.3', title: 'Ordinal Numbers', path: '/noun3'),
+    LessonTile(lessonNum: '1.4', title: 'Cardinal Numbers', path: '/noun4'),
     LessonTile(
-        lessonNum: '1.5', title: 'Noun Inflection (Declension)', path: ''),
-    LessonTile(lessonNum: '1.6', title: 'Date', path: '')
+        lessonNum: '1.5', title: 'Noun Inflection (Declension)', path: '/noun5'),
+    LessonTile(lessonNum: '1.6', title: 'Date', path: '/noun6')
   ];
   @override
   Widget build(BuildContext context) {

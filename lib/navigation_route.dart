@@ -27,6 +27,14 @@ class RouteGenerator {
         } else {
           return _errorWrongDataType();
         }
+      case '/noun2':
+        if (args is String) {
+          return MaterialPageRoute(builder: (_) {
+            return Noun2(title: args);
+          });
+        } else {
+          return _errorWrongDataType();
+        }
       //article lessons
       case '/article':
         if (args is String) {
